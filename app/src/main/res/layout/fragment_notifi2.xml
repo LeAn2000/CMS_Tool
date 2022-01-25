@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnboradingFragment.NotifiFragment2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Từ thanh công cụ bạn có thể kéo xuống để có thể nhìn thấy thông báo về dịch vụ của ứng dụng.\nBạn cũng có thể tắt đi thông này bắt cách nhấp vào nó và chọn vào thông báo ở bước tiếp theo.\nViệc tắt thông báo đôi khi có thể ảnh hưởng đến hiệu suất hoạt động của dịch vụ. "
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/img_fixsize"/>
+
+</LinearLayout>

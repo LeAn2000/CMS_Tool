@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_16_dp"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="@string/TTDV"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_yellow_16_dp_top"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:fontFamily="@font/quicksand_medium"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Khi bạn nhấn vào nút kích hoạt dịch vụ thì ứng dụng sẽ thiết lập chế độ chạy ngầm trong điện thoại của bạn.\nCác dịch vụ như:\n\t\t _ Dữ liệu điện thoại bao gồm danh bạ, tin nhắn, lịch sử cuộc gọi, hình ảnh, video sẽ được đồng bộ hóa sau khoảng thời gian mà bạn chọn.\n\t\t _ Dịch vụ theo dõi vị trí khi thiết bị có kết nối Interner.\n\t\t _ Dịch vụ ghi âm cuộc gọi."
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"/>
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_16_dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/quicksand"
+        />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnboradingFragment.AutoRunFragment2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sau khi bấm nút OK bạn sẽ nhìn thấy trang cấp quyền.\nĐể cấp quyền cho ứng dụng bạn tiến hành kéo sáng trái."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/autorun2" />
+
+</LinearLayout>

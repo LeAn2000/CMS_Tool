@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnboradingFragment.AutoRunFragment1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sau khi nhấn vào nút khởi chạy trên màn hình sẽ xuất hiện một thông báo như trên hình.\nĐể tiếp tục bạn tiến hành bấm nút OK, ứng dụng sẽ chuyển sang trang cấp quyền. "
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/autorun1"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_16_dp"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Thông Báo"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_yellow_16_dp_top"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/quicksand_medium"
+        />
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Sau khi cấp quyền bạn có thể thoát ứng dụng"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_16_dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/quicksand"/>
+</LinearLayout>

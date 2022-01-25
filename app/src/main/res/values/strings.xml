@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Login Screen UI</string>
+    <string name="login_text">Đăng Nhập</string>
+    <string name="email_text">Số Điện Thoại</string>
+    <string name="password_text">Mật Khẩu</string>
+    <string name="Nametrack">Đặt tên cho thiết bị</string>
+    <string name="forgot_password_text">Quên Mật Khẩu?</string>
+    <string name="new_here_text">Design by CMS Team</string>
+    <string name="sign_up_text">Đăng ký</string>
+    <string name="name_text">Name</string>
+    <string name="confirm_password_text">Confirm Password</string>
+    <string name="privacy_text">By creating an account, you agree to the \nTerms and Use and Privacy Policy</string>
+    <string name="already_account_text">Already have an account ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Permission">Để đảm bảo rằng bạn có thể sử dụng được tất cả dịch vụ của hệ thống.
+    Bạn cần cung cấp cho ứng dụng tất cả quyền để có thể truy cập vào hệ thống điện thoại.
+    Ứng dụng cần một số quyền như:</string>
+    <string name="Storage">Quyền truy cập ảnh, phương tiện và tệp trên thiết bị của bạn.</string>
+    <string name="Contact">Quyền được thực hiện và quản lí cuộc gọi điện thoại.</string>
+    <string name="Phonebook">Quyền truy cập vào danh bạ điện thoại.</string>
+    <string name="SMS">Quyền được gửi và xem tin nhắn SMS.</string>
+    <string name="RecordAudio">Quyền được ghi âm.</string>
+    <string name="btnDongBo">Đồng bộ</string>
+    <string name="noti_frag1">Sau khi bạn đã tắt hoàn toàn ứng dụng, nếu thấy xuất hiện thông báo pop up như hình thì dịch vụ đã được kích hoạt thành công</string>
+    <string name="hello">Chào bạn !!!!</string>
+    <string name="description">Chúng tôi sẽ hướng dẫn bạn một vài bước cấu hình đơn giản để tăng tính hiệu quả của ứng dụng</string>
+    <string name="notice">Một số lưu ý và yêu cầu dịch vụ:</string>
+    <string name="capquyen">Cấp Quyền</string>
+    <string name="locationper">Quyền có thể truy xuất vị trí</string>
+    <string name="k_ch_ho_t_d_ch_v">Kích Hoạt Dịch Vụ</string>
+    <string name="th_ng_tin_d_ch_v">Thông tin dịch vụ</string>
+    <string name="timedb">Chọn thời gian đồng bộ dữ liệu:</string>
+    <string name="kichhoat">Kích Hoạt</string>
+    <string name="service">Sử dụng dịch vụ:</string>
+    <string name="audiorec">Dịch vụ ghi âm cuộc gọi</string>
+    <string name="use">Sử dụng</string>
+    <string name="location">Dịch vụ theo dõi vị trí</string>
+    <string name="next">Tiếp theo</string>
+    <string name="Khoichay">Quyền Tự Khởi Chạy Và Thông Báo</string>
+    <string name="th_ng_b_o_khi_ch_y_d_ch_v">Thông báo khi chạy dịch vụ</string>
+    <string name="xem_chi_ti_t">Xem chi tiết</string>
+    <string name="quy_n_t_kh_i_ch_y_ng_d_ng">Quyền tự khởi chạy ứng dụng</string>
+    <string name="TTDV">Thông Tin Dịch Vụ</string>
+    <string name="ok">OK</string>
+    <string name="source">Lưu ý: Để có thể sử dụng tốt tính năng theo dõi vị trị, bạn cần bật GPS cho thiết bị</string>
+
+</resources>

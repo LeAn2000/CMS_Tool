@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnboradingFragment.NotifiFragment6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sau khi kéo sang trái thì thông báo đã được tắt.\nBạn có thể kiểm tra lại một lần nưa bằng cách kéo từ trên xuống xem còn thông báo hay không."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/img6"/>
+
+</LinearLayout>

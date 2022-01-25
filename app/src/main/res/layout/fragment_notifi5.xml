@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnboradingFragment.NotifiFragment5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sau khi chọn vào mục thông báo bạn sẽ thấy thông báo đang được mở. Để tắt bạn tiến hành kéo sang trái."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/img5"/>
+
+</LinearLayout>

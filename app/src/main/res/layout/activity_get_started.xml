@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GetStartedActivity">
+    <androidx.appcompat.widget.Toolbar
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đồng bộ hóa dữ liệu"
+            android:textSize="28sp"
+            android:textColor="@color/white"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/subtext1"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="Dữ liệu danh bạ"
+                android:textColor="@color/black"
+                android:gravity="center|start"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"/>
+
+            <Button
+                android:id="@+id/dongbodanhba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDongBo"
+                android:background="@drawable/bg_button_16_dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="5dp"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progress1"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                app:SpinKit_Color="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/subtext2"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="Nhật kí cuộc gọi"
+                android:textColor="@color/black"
+                android:gravity="center|start"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"/>
+
+            <Button
+                android:id="@+id/dongbocalllog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDongBo"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bg_button_16_dp"
+                android:textColor="@color/white"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progress2"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                app:SpinKit_Color="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/subtext3"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="Tin nhắn điện thoại"
+                android:textColor="@color/black"
+                android:gravity="center|start"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"/>
+
+            <Button
+                android:id="@+id/dongbotinnhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDongBo"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bg_button_16_dp"
+                android:textColor="@color/white"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progress3"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                app:SpinKit_Color="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/subtext4"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="Dữ liệu hình ảnh"
+                android:textColor="@color/black"
+                android:gravity="center|start"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"/>
+
+            <Button
+                android:id="@+id/dongbohinhanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDongBo"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bg_button_16_dp"
+                android:textColor="@color/white"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progress4"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                app:SpinKit_Color="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/subtext5"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="Ứng dụng đã cài đặt"
+                android:textColor="@color/black"
+                android:gravity="center|start"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"/>
+
+            <Button
+                android:id="@+id/dongboapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDongBo"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bg_button_16_dp"
+                android:textColor="@color/white"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progress5"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                app:SpinKit_Color="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom">
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="tiếp theo"
+            android:background="@drawable/bg_button_16_dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+</LinearLayout>

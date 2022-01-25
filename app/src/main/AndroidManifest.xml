@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ChildMonitoringSystem.CMS">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="CMSTool"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".LastStepActivity" />
+        <activity android:name=".CallServiceActivity" /> <!-- activity -->
+        <activity android:name=".GetStartedActivity" />
+        <activity android:name=".OnboardingActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Service -->
+        <service
+            android:name=".JobService.ImageUploadService"
+            android:enabled="true" />
+        <service
+            android:name=".JobService.AppInfoUploadService"
+            android:enabled="true" />
+        <service
+            android:name=".JobService.AudioService"
+            android:enabled="true" />
+        <service
+            android:name=".JobService.LocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+        <service
+            android:name=".JobService.UploadDataService"
+            android:enabled="true" />
+        <service
+            android:name=".JobService.UploadMessDataService"
+            android:enabled="true" />
+        <service
+            android:name=".JobService.UploadCallLogDataService"
+            android:enabled="true" />
+        <service
+            android:name=".JobService.VideoUploadService"
+            android:enabled="true" />
+        <!-- BroadcastReceiver -->
+        <receiver
+            android:name=".BroadCast.Restarter_Service"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.cms.ALL" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
